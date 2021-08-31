@@ -1,0 +1,12 @@
+﻿<div class="p-4">
+    <div class="container">
+        <h1>Hi {{user.username}}!</h1>
+        <p>You're logged in with Angular 10!!</p>
+        <p><a routerLink="/users" *ngIf="isUser">Manage Users</a></p>
+        <p><a routerLink="/admin" *ngIf="isAdmin">Manage Users</a></p>
+
+        <!-- <ul *ngIf="userFromApi"><li>{{userFromApi.firstName}}</li></ul> -->
+    </div>
+
+
+</div>
